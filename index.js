@@ -41,25 +41,41 @@ const questions = [
         message: 'PLease choose a license from the list',
         name: 'license',
         choices: ['MIT', 'The Unlicense', 'Boost Software License 1.0', 'Apache License 2.0', 'None'],
-      },
-      {
+    },
+    {
         type: 'input',
         message: 'Please enter your Github name : ',
         name: 'github',
-      },
-      {
+    },
+    {
         type: 'input',
         message: 'Please enter your email address : ',
         name: 'email',
-      },
+    },
 
 ];
+const promptUser = () =>
+    inquirer.prompt(questions);
+const generateReadme = (answers) => `${answers.title},${answers.github}`;
+const fileName = './utils/README.md';
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data);
+}
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+    promptUser().then((answers) => {
+        try {
+            const readme = generateReadme(answers);
+            writeToFile(fileName, readme);
+            console.log('Successfully wrote to README.md');
+        } catch (error) {
+            console.log(error);
+        }
+    });
 
+}
 // Function call to initialize app
 init();
