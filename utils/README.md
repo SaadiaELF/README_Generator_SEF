@@ -13,7 +13,7 @@
 
   ## 1. Description
 
-  f
+  d
 
 
   ## 2. Installation
@@ -39,9 +39,9 @@
   ## 6. License [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
   
 
-  MIT
+  The Unlicense
 
 
   ## 7. Questions
 
-  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/SaadiaELF or you can send my an email via my email address : saadiaelfekak@gmail.com.
+  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/df or you can send my an email via my email address : d.
