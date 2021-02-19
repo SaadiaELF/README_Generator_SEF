@@ -202,8 +202,8 @@ function generateMarkdown(data) {
   4. [Contributing](#4.-contributing)
   5. [Tests](#5.-tests)
   6. [License](#6.-license)
-  7. [Questions](#7.-questions)
-\n
+  7. [Questions](#7.-questions)\n
+  
   ## 1. Description\n
   ${data.description}\n
 
@@ -223,8 +223,7 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data, myLicense)}\n
 
   ## 7. Questions\n
-  If you have any question , please you can visit my GitHub profile [SaadiaELF](https://github.com/${data.github}) or you can send me an email via my email address : ${data.email}.
-`;
+  If you have any question , you can visit my GitHub profile [${data.github}](https://github.com/${data.github}) or send me an email via my email address : ${data.email}.`;
 }
 
 module.exports = generateMarkdown;
