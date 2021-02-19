@@ -223,7 +223,7 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data, myLicense)}\n
 
   ## 7. Questions\n
-  If you have any question , please you can visit [my GitHub profile] (https://github.com/${data.github}) or you can send me an email via my email address : ${data.email}.
+  If you have any question , please you can visit my GitHub profile [SaadiaELF](https://github.com/${data.github}) or you can send me an email via my email address : ${data.email}.
 `;
 }
 
