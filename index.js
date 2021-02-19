@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 // Description, Installation, Usage, Contributing, and Tests
 //  description, installation instructions, usage information, contribution guidelines, and test instructions
@@ -56,7 +57,7 @@ const questions = [
 ];
 const promptUser = () =>
     inquirer.prompt(questions);
-const generateReadme = (answers) => `${answers.title},${answers.github}`;
+const generateReadme = (answers) => generateMarkdown(answers) ;
 const fileName = './utils/README.md';
 
 // TODO: Create a function to write README file
