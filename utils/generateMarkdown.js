@@ -214,10 +214,10 @@ function generateMarkdown(data) {
   ${data.usage}\n
 
   ## 4. Contributing\n
-  ${data.Contribution}\n
+  ${data.contribution}\n
   
   ## 5. Tests\n
-  ${data.test}\n
+  ${data.tests}\n
 
   ## 6. License\n
   ${renderLicenseSection(data, myLicense)}\n
