@@ -1,6 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -38,7 +40,8 @@ function generateMarkdown(data) {
   ## 5. Tests\n
   ${data.test}\n
 
-  ## 6. License\n
+  ## 6. License [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+  \n
   ${data.license}\n
 
   ## 7. Questions\n
