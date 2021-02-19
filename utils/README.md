@@ -1,29 +1,29 @@
-# title 
+# Title 
 
   ## Table of content :
 
-  1. [Description](#description)
-  2. [Installation](#installation)
-  3. [Usage](#usage)
-  4. [Contributing](#contributing)
-  5. [Tests](#tests)
-  6. [License](#license)
-  7. [Questions](#questions)
+  1. [Description](#1.-description)
+  2. [Installation](#2.-installation)
+  3. [Usage](#3.-usage)
+  4. [Contributing](#4.-contributing)
+  5. [Tests](#5.-tests)
+  6. [License](#6.-license)
+  7. [Questions](#7.-questions)
 
 
   ## 1. Description
 
-  d
+  descrption
 
 
   ## 2. Installation
 
-  d
+  ds
 
 
   ## 3. Usage
 
-  d
+  ds
 
 
   ## 4. Contributing
@@ -36,12 +36,11 @@
   undefined
 
 
-  ## 6. License [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-  
+  ## 6. License
 
-  The Unlicense
+  renderLicenseBadge(data.license)
 
 
   ## 7. Questions
 
-  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/df or you can send my an email via my email address : d.
+  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/SaadiaELF or you can send my an email via my email address : saadiaelfekak@gmail.com.
