@@ -4,16 +4,16 @@ function renderLicenseBadge(license) {
   let str;
   switch (license) {
     case 'MIT':
-      str = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+      str = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]'
       break;
     case 'The Unlicense':
-      str = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
+      str = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]'
       break;
     case 'Boost Software License 1.0':
-      str = '[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'
+      str = '[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]'
       break;
     case 'Apache License 2.0':
-      str = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0'
+      str = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]'
       break;
     case 'None':
       str = ''
@@ -24,7 +24,28 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  let str;
+  switch (license) {
+    case 'MIT':
+      str = '(https://opensource.org/licenses/MIT)'
+      break;
+    case 'The Unlicense':
+      str = '(http://unlicense.org/)'
+      break;
+    case 'Boost Software License 1.0':
+      str = '(https://www.boost.org/LICENSE_1_0.txt)'
+      break;
+    case 'Apache License 2.0':
+      str = '(https://opensource.org/licenses/Apache-2.0'
+      break;
+    case 'None':
+      str = ''
+      break;
+  }
+  return str;
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -32,8 +53,8 @@ function renderLicenseSection(license) { }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const licenses = data.license;
-  return `# ${data.title} ${renderLicenseBadge(licenses)}\n
+  const myLicense = data.license;
+  return `# ${data.title} ${renderLicenseBadge(myLicense)} ${renderLicenseLink(myLicense)}\n
   
   ## Table of content :
 

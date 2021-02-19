@@ -1,4 +1,4 @@
-# Title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# The title [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)] (http://unlicense.org/)
 
   
   ## Table of content :
@@ -14,17 +14,17 @@
 
   ## 1. Description
 
-  qsd
+  Description
 
 
   ## 2. Installation
 
-  dsf
+  Installation
 
 
   ## 3. Usage
 
-  df
+  usage info
 
 
   ## 4. Contributing
