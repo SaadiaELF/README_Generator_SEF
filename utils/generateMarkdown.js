@@ -52,7 +52,7 @@ function generateMarkdown(data) {
   renderLicenseBadge(data.license)\n
 
   ## 7. Questions\n
-  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/${data.github} or you can send my an email via my email address : ${data.email}.
+  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/${data.github}) or you can send my an email via my email address : ${data.email}.
 `;
 }
 

@@ -13,17 +13,17 @@
 
   ## 1. Description
 
-  descrption
+  Description
 
 
   ## 2. Installation
 
-  ds
+  installation
 
 
   ## 3. Usage
 
-  ds
+  usage info
 
 
   ## 4. Contributing
@@ -43,4 +43,4 @@
 
   ## 7. Questions
 
-  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/SaadiaELF or you can send my an email via my email address : saadiaelfekak@gmail.com.
+  If you have any question , please you can visit my GitHub profile : [Github](https://github.com/SaadiaELF) or you can send my an email via my email address : saadiaelfekak@gmail.com.
