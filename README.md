@@ -54,8 +54,8 @@ Screenshots :
 ![Screenshot03](./assets/Screenshot-03.JPG)
 
 Walkthrough videos:
-![Demo01](https://drive.google.com/file/d/12nmbFQyjz-jR03E3_iOzyT45Yq0VGPA9/view?usp=sharing)
-![Demo02](https://drive.google.com/file/d/1MeVyI3GHC-hBHv9WKGWLhESarI6jdp1Y/view?usp=sharing)
+*Demo01 :* (https://drive.google.com/file/d/12nmbFQyjz-jR03E3_iOzyT45Yq0VGPA9/view?usp=sharing)
+*Demo02 :* (https://drive.google.com/file/d/1MeVyI3GHC-hBHv9WKGWLhESarI6jdp1Y/view?usp=sharing)
 -----------------------------------------------------------------------------------------------------------------------
 
 ## URLs
