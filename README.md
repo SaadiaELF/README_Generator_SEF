@@ -48,14 +48,16 @@ This programming language is used to create two files :
 
 ## Demonstration
 
-Screenshots :
+* Screenshots :
+
 ![Screenshot01](./assets/Screenshot-01.JPG)
 ![Screenshot02](./assets/Screenshot-02.JPG)
 ![Screenshot03](./assets/Screenshot-03.JPG)
 
-Walkthrough videos:
-*Demo01 :* (https://drive.google.com/file/d/12nmbFQyjz-jR03E3_iOzyT45Yq0VGPA9/view?usp=sharing)
-*Demo02 :* (https://drive.google.com/file/d/1MeVyI3GHC-hBHv9WKGWLhESarI6jdp1Y/view?usp=sharing)
+* Walkthrough videos:
+
+    - Demo01 : (https://drive.google.com/file/d/12nmbFQyjz-jR03E3_iOzyT45Yq0VGPA9/view?usp=sharing) <br>
+    - Demo02 : (https://drive.google.com/file/d/1MeVyI3GHC-hBHv9WKGWLhESarI6jdp1Y/view?usp=sharing)
 -----------------------------------------------------------------------------------------------------------------------
 
 ## URLs
