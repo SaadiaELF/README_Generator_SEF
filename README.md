@@ -2,22 +2,22 @@
 -----------------------------------------------------------------------------------------------------------------------
 Table of content :
 
-1. [Purpose](#1-Purpose)
-2. [Method](#2-Method)
-3. [Node.js](#3-Node.js)
-5. [JavaScript](#4-JavaScript) 
-6. [Demonstration](#5-Demonstration)
-7. [URLs](#6-URLs) 
+* [Purpose](#Purpose)
+* [Method](#Method)
+* [Node.js](#Node.js)
+* [JavaScript](#JavaScript) 
+* [Demonstration](#Demonstration)
+* [URLs](#URLs) 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-## 1-Purpose :
+## Purpose
 
 The main purpose of this project is create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-## 2-Method : 
+## Method
 
 This application is created using the following languages, libraries and software.
 
@@ -28,7 +28,7 @@ This application is created using the following languages, libraries and softwar
    
 -----------------------------------------------------------------------------------------------------------------------
 
-## 3-Node.js : 
+## Node.js
     
 This open-source back-end JavaScript runtime environment is used to invoke the README file using the following commands :
 
@@ -37,7 +37,7 @@ This open-source back-end JavaScript runtime environment is used to invoke the R
     * node index.js : to invoke the application (starts a serie of prompts)
 -----------------------------------------------------------------------------------------------------------------------
 
-## 4-JavaScript : 
+## JavaScript 
 
 This programming language is used to create two files :
 
@@ -46,7 +46,7 @@ This programming language is used to create two files :
 
 -----------------------------------------------------------------------------------------------------------------------
 
-## 5-Demonstration :
+## Demonstration
 
 Screenshots :
 ![Screenshot01](./Assets/Screenshot-01-Desktop.JPG)
@@ -58,7 +58,7 @@ Walkthrough video:
 
 -----------------------------------------------------------------------------------------------------------------------
 
-## 6-URLs
+## URLs
 
 The URL of the GitHub repository: https://github.com/SaadiaELF/README_Generator_SEF.git
 
