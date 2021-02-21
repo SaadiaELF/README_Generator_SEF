@@ -4,7 +4,7 @@ Table of content :
 
 * [Purpose](#Purpose)
 * [Method](#Method)
-* [Node.js](#Node.js)
+* [Node.js](#Nodejs)
 * [JavaScript](#JavaScript) 
 * [Demonstration](#Demonstration)
 * [URLs](#URLs) 
@@ -28,7 +28,7 @@ This application is created using the following languages, libraries and softwar
    
 -----------------------------------------------------------------------------------------------------------------------
 
-## Node.js
+## Nodejs
     
 This open-source back-end JavaScript runtime environment is used to invoke the README file using the following commands :
 
